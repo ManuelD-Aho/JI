@@ -1,0 +1,14 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "config\\": "config/",
+      "views\\": "backend/client/views/",
+      "models\\": "backend/client/models/",
+      "controllers\\": "backend/client/controllers/"
+    }
+  }
+}
